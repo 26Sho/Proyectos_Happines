@@ -1,0 +1,1289 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #e9bf00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+
+header img {
+    height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.Sect1 {
+    display: flex;
+    padding: 60px 60px;
+    margin-bottom: 20%;
+}
+
+.Sect1 img {
+    width: 45%;
+}
+
+.Sect1 .text1 {
+    width: 50%;
+    margin-left: 90px;
+    margin-top: 3%;
+}
+
+.text1 h1 {
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text1 p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.text1 button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #e9bf00;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Intermedio {
+    display: flex;
+    background-color: rgb(217, 217, 217);
+    padding: 70px 60px;
+    margin: 70px 60px;
+    gap: 170px;
+    position: absolute;
+    top: 100%;
+    transform: translateX(2%);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.40);
+}
+
+.text2 h2 {
+    font-size: 48px;
+    color: #e9bf00;
+}
+
+.text2 p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.resalte {
+    font-weight: bold;
+    text-decoration: none;
+    color: #111;
+}
+
+.estadisticas {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: auto;
+    gap: 50px;
+}
+
+.estadisticas img {
+    width: 200px;
+    height: 200px;
+}
+
+.Sect2 {
+    background-color: #e9bf00;
+    padding: 80px 60px;
+}
+
+.text3 h2 {
+    margin-top: 20%;
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    font-weight: 500;
+    color: black;
+}
+
+.text3 p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: black;
+}
+
+.text3 button {
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.imagen-fam {
+    display: flex;
+    margin-left: 380px;
+    margin-top: -190px;
+}
+
+.Sect3 {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    max-width: 1100px;
+    margin: 100px auto;
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.Sect3 img {
+    width: 55%;
+    height: auto;
+}
+
+.text4 {
+    padding: 40px;
+    max-width: 500px;
+}
+
+.Sect3 .text4 h2 {
+    font-family: 'Bebas Neue';
+    font-size: 75px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #e9bf00;
+}
+
+.Sect3 button {
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.Sect3 .estadis img {
+    width: 200px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.text4 p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+}
+
+.Sect4 {
+    background-color: #000000;
+    align-items: column;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.Sect4 h2 {
+    font-family: 'Bebas Neue';
+    color: #ffd417;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.Sect4 p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #ffffff;
+    margin: 20px 200px;
+}
+
+.Sect4 button {
+    font-family: 'Open Sans';
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #e9bf00;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Sect5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 80px 100px;
+}
+
+.Sect5 img {
+    width: 50%;
+    height: auto;
+    margin-right: 90px;
+}
+
+.text5 h4 {
+    font-family: 'Bebas Neue';
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.text5 p {
+    font-family: 'Open Sans';
+    color: #222;
+    font-size: 15px;
+    margin-bottom: 25px;
+    max-width: 420px;
+}
+
+.text5 button {
+    background-color: #f6c900;
+    color: #000;
+    border: none;
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Sect6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e7e7;
+    padding: 80px 100px;
+    flex-direction: row-reverse;
+    gap: 80px;
+}
+
+.Sect6 img {
+    width: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.text6 h2 {
+    font-family: 'Bebas Neue';
+    font-size: 75px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.text6 p {
+    font-family: 'Open Sans';
+    color: #222;
+    font-size: 15px;
+    margin-bottom: 25px;
+    max-width: 420px;
+}
+
+.text6 button {
+    background-color: #f6c900;
+    color: #000;
+    border: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Sect7 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 120px;
+    background-color: #fff;
+}
+
+.formulario {
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.formulario label {
+    font-size: 14px;
+}
+
+.formulario .union {
+    display: flex;
+    gap: 25px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+}
+
+.formulario textarea {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+}
+
+.Sect7 .formulario p {
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.text7 {
+    margin-top: 80px;
+}
+
+.text7 h2 {
+    font-family: 'Bebas Neue';
+    font-size: 48px;
+    color: #f6c900;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.text7 p {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #222;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    max-width: 400px;
+}
+
+.text7 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.Sect8 {
+    background-color: #e9bf00;
+    align-items: column;
+    text-align: center;
+    padding: 60px 0;
+
+}
+
+.Sect8 h4 {
+    font-family: 'Bebas Neue';
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.Sect8 img {
+    cursor: pointer;
+}
+
+.Sect8 p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #000;
+    margin: 20px 200px;
+}
+
+.Sect8 button {
+    font-family: 'Open Sans';
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #000;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Open Sans';
+    padding: 50px 80px;
+    position: relative;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 40px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+
+.links p {
+    color: #f6c900;
+    margin: 6px 0;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #555;
+    margin: 40px 0 20px 0;
+}
+
+.autor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.autor p {
+    color: #f6c900;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.autor .iconos img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 1279px) {
+    .Sect1 img {
+        width: 50%;
+        height: auto;
+    }
+
+    .text1 h1 {
+        font-family: 'Bebas Neue';
+        font-size: 70px;
+        line-height: 1.0;
+    }
+
+    .text1 p {
+        font-family: 'Open Sans';
+        font-size: 14px;
+    }
+
+    .text1 button {
+        margin-top: 20px;
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+    .Intermedio {
+        padding: 50px 60px;
+        gap: 110px;
+    }
+
+    .text2 h2 {
+        font-size: 30px;
+    }
+
+    .text2 p {
+        font-size: 15px;
+    }
+
+    .resalte {
+        font-size: 15px;
+    }
+
+    .estadisticas {
+        width: 300px;
+    }
+
+    .estadisticas img {
+        margin-top: 40px;
+        width: 130px;
+        height: 130px;
+    }
+
+    .text3 h2 {
+        font-size: 70px;
+    }
+
+    .text3 p {
+        font-size: 13px;
+    }
+
+    .text3 button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .imagen-fam {
+        margin-left: 340px;
+        width: 500px;
+        height: 300px;
+    }
+
+    .Sect3 .text4 h2 {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    .Sect3 button {
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+
+    .Sect3 .estadis img {
+        width: 150px;
+        margin-left: 110px;
+    }
+
+    .Sect3 .text4 p {
+        font-size: 13px;
+    }
+
+    .Sect4 p {
+        font-size: 12px;
+        margin: 20px 100px;
+    }
+
+    .Sect4 img {
+        width: 800px;
+    }
+
+    .Sect4 button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .Sect5 p {
+        font-size: 13px;
+    }
+
+    .Sect5 button {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+
+    .Sect6 .text6 h2 {
+        font-size: 60px;
+    }
+
+    .Sect6 p {
+        font-size: 12px;
+    }
+
+    .Sect6 button {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .Sect6 img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .text7 h2 {
+        font-size: 47px;
+    }
+
+    .text7 p {
+        font-size: 13px;
+    }
+
+    .text7 button {
+        padding: 10px 25px;
+        font-size: 13px;
+    }
+
+    .formulario {
+        width: 400px;
+    }
+
+    .formulario input {
+        font-size: 13px;
+    }
+
+    .formulario textarea {
+        font-size: 13px;
+    }
+
+    .formulario p {
+        font-size: 10px;
+    }
+
+    .formulario label {
+        font-size: 13px;
+    }
+
+    .formulario .union {
+        gap: 15px;
+    }
+
+    .Sect8 p {
+        font-size: 14px;
+        margin: 20px 100px;
+    }
+
+    .Sect8 img {
+        width: 800px;
+    }
+
+    .Sect8 button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 920px) {
+
+    .Sect1 img {
+        width: 50%;
+        height: 60%;
+    }
+
+    .text1 h1 {
+        font-size: 50px;
+    }
+
+    .text1 p {
+        font-size: 12px;
+        padding-right: 0px;
+    }
+
+    .text1 button {
+        margin-top: 20px;
+        padding: 10px 12px;
+        font-size: 11px;
+    }
+
+    .Intermedio {
+        padding: 30px 20px;
+        margin: -40px 55px;
+        gap: 60px;
+    }
+
+    .text3 h2 {
+        font-size: 60px;
+    }
+
+    .text3 p {
+        font-size: 12px;
+    }
+
+    .text3 button {
+        margin-top: 20px;
+        padding: 10px 12px;
+        font-size: 11px;
+    }
+
+    .imagen-fam {
+        margin-left: 300px;
+        width: 400px;
+        height: 250px;
+    }
+
+    .Sect3 .text4 h2 {
+        font-size: 48px;
+    }
+
+    .Sect3 .text4 p {
+        font-size: 9px;
+    }
+
+    .Sect3 button {
+        font-size: 8px;
+        padding: 10px 12px;
+    }
+
+    .Sect3 .estadis img {
+        width: 110px;
+        margin-left: 90px;
+    }
+
+    .Sect4 p {
+        font-size: 12px;
+        margin: 20px 100px;
+    }
+
+    .Sect4 img {
+        width: 700px;
+    }
+
+    .Sect4 button {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .Sect5 h4 {
+        font-size: 36px;
+    }
+
+    .Sect5 p {
+        font-size: 12px;
+    }
+
+    .Sect5 button {
+        font-size: 11px;
+        padding: 10px 12px;
+    }
+
+    .Sect6 {
+        padding: 60px 50px;
+    }
+
+    .Sect6 .text6 h2 {
+        font-size: 48px;
+    }
+
+    .Sect6 p {
+        font-size: 11px;
+    }
+
+    .Sect6 button {
+        padding: 10px 12px;
+        font-size: 11px;
+    }
+
+    .Sect6 img {
+        width: 320px;
+        height: 320px;
+
+    }
+
+    .Sect7 {
+        padding: 60px 80px;
+        gap: 60px;
+    }
+
+    .text7 h2 {
+        font-size: 40px;
+    }
+
+    .text7 button {
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+
+    .Sect7 .formulario p {
+        font-size: 10px;
+    }
+
+    .Sect8 p {
+        font-size: 12px;
+        margin: 20px 100px;
+    }
+
+    .Sect8 img {
+        width: 700px;
+    }
+
+    .Sect8 button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    nav a {
+        font-size: 12px;
+        margin: 0 10px;
+    }
+
+    .Sect1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .Sect1 img {
+        width: 80%;
+    }
+
+    .Sect1 .text1 {
+        width: 90%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .text1 h1 {
+        font-size: 40px;
+    }
+
+    .text1 p {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .text1 button {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    .Intermedio {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+        margin: 130px 110px;
+        transform: none;
+    }
+
+    .estadisticas {
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .estadisticas img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Sect2 {
+        padding: 60px 30px;
+        text-align: center;
+        margin-top: 350px;
+    }
+
+    .text3 h2 {
+        font-size: 50px;
+    }
+
+    .Sect2 .imagen-fam {
+        margin-top: 50px;
+        margin-left: 25px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .Sect3 {
+        flex-direction: column;
+        width: 90%;
+        margin: 60px auto;
+    }
+
+    .Sect3 img {
+        width: 100%;
+    }
+
+    .Sect3 .text4 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Sect3 .text4 h2 {
+        font-size: 45px;
+    }
+
+    .Sect3 .text4 p {
+        font-size: 12px;
+    }
+
+    .Sect3 .estadis img {
+        margin-left: 5px;
+    }
+
+    .Sect4 p {
+        margin: 20px 30px;
+        font-size: 11px;
+    }
+
+    .Sect4 img {
+        width: 400px;
+    }
+
+    .Sect5 {
+        flex-direction: column;
+        padding: 60px 30px;
+        text-align: center;
+    }
+
+    .Sect5 img {
+        width: 80%;
+        margin-left: 110px;
+        margin-bottom: 20px;
+    }
+
+    .text5 p {
+        font-size: 13px;
+    }
+
+    .Sect6 {
+        flex-direction: column;
+        padding: 60px 30px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .Sect6 img {
+        width: 80%;
+    }
+
+    .text6 h2 {
+        font-size: 50px;
+    }
+
+    .text6 p {
+        font-size: 13px;
+    }
+
+    .Sect7 {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+        padding: 60px 30px;
+    }
+
+    .formulario {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .text7 {
+        text-align: center;
+    }
+
+    .text7 h2 {
+        font-size: 36px;
+    }
+
+    .Sect8 p {
+        font-size: 13px;
+    }
+
+    .Sect8 img {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    header img {
+        height: 35px;
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+    .Sect1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+
+    }
+
+    .Sect1 img {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .Sect1 .text1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .text1 h1 {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+
+    .text1 p {
+        font-size: 11px;
+        padding: 0;
+    }
+
+    .text1 button {
+        font-size: 11px;
+        padding: 6px 12px;
+    }
+
+    .Intermedio {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+        margin: 20px 45px;
+        transform: none;
+    }
+
+    .estadisticas {
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .estadisticas img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Sect2 {
+        padding: 60px 30px;
+        text-align: center;
+        margin-top: 350px;
+    }
+
+    .text3 h2 {
+        font-size: 36px;
+    }
+
+    .text3 p {
+        font-size: 11px;
+    }
+
+    .text3 button {
+        font-size: 11px;
+        padding: 8px 15px;
+    }
+
+    .Sect2 .imagen-fam {
+        margin-top: 30px;
+        margin-left: 12px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .Sect3 {
+        flex-direction: column;
+        width: 95%;
+        margin: 40px auto;
+    }
+
+    .Sect3 img {
+        width: 100%;
+    }
+
+    .Sect3 .text4 {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .Sect3 .text4 h2 {
+        font-size: 36px;
+    }
+
+    .Sect3 .text4 p {
+        font-size: 11px;
+    }
+
+    .Sect3 button {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+
+    .Sect4 {
+        padding: 40px 10px;
+    }
+
+    .Sect4 h2 {
+        font-size: 28px;
+    }
+
+    .Sect4 p {
+        font-size: 11px;
+        margin: 10px 20px;
+    }
+
+    .Sect4 img {
+        width: 300px;
+    }
+
+    .Sect4 button {
+        padding: 8px 15px;
+        font-size: 11px;
+    }
+
+    .Sect5 {
+        flex-direction: column;
+        padding: 40px 15px;
+        text-align: center;
+    }
+
+    .Sect5 img {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .text5 h4 {
+        font-size: 30px;
+    }
+
+    .text5 p {
+        font-size: 11px;
+    }
+
+    .text5 button {
+        font-size: 11px;
+        padding: 8px 15px;
+    }
+
+    .Sect6 {
+        flex-direction: column;
+        padding: 40px 15px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .Sect6 img {
+        width: 90%;
+        height: auto;
+    }
+
+    .text6 h2 {
+        font-size: 36px;
+    }
+
+    .text6 p {
+        font-size: 11px;
+    }
+
+    .text6 button {
+        font-size: 11px;
+        padding: 8px 15px;
+    }
+
+    .Sect7 {
+        flex-direction: column-reverse;
+        padding: 40px 15px;
+        gap: 30px;
+    }
+
+    .formulario {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .formulario label {
+        font-size: 12px;
+    }
+
+    .formulario input {
+        font-size: 12px;
+    }
+
+    .formulario textarea {
+        font-size: 12px;
+    }
+
+    .text7 {
+        text-align: center;
+    }
+
+    .text7 h2 {
+        font-size: 30px;
+    }
+
+    .text7 p {
+        font-size: 11px;
+    }
+
+    .text7 button {
+        font-size: 11px;
+        padding: 8px 15px;
+    }
+
+    .Sect8 {
+        padding: 40px 15px;
+    }
+
+    .Sect8 h4 {
+        font-size: 30px;
+    }
+
+    .Sect8 p {
+        font-size: 11px;
+        margin: 15px 20px;
+    }
+
+    .Sect8 img {
+        width: 90%;
+    }
+
+    .Sect8 button {
+        font-size: 11px;
+        padding: 8px 15px;
+    }
+
+    footer {
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .links p {
+        font-size: 12px;
+    }
+
+    .autor {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .autor p {
+        font-size: 11px;
+    }
+
+    .autor .iconos img {
+        width: 18px;
+        height: 18px;
+    }
+}
